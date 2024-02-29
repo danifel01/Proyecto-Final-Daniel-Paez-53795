@@ -1,7 +1,7 @@
   /* Seleccione solo una tipografia descargada de Google fonts, la otra es predeterminada de VSC. */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 
-  /* Reestablezco los valores predeterminados a cero */
+  /* Reestablezco los valores predeterminados a cero. */
   *{
     margin: 0;
     padding: 0;
@@ -17,12 +17,14 @@
     position: relative;
   }
 
-  /* Para el header/navegador seleccione el color azul y su tipo de letra Kani, que fue exportada de Google Fonts */
+  /* Para el header/navegador seleccione el color azul y su tipo de letra Kani, que fue exportada de Google Fonts. */
 
   header{
     background-color: #002250;
     border-top-left-radius: 1px;
     border-top-right-radius: 1px;
+    position: sticky;
+    top: 0;
   }
   
   /* Para el header use un display:flex para que los elncales relativos se organizaran horizontalemnte.*/
@@ -41,36 +43,37 @@
     font-family: 'Kanit', sans-serif;
   }
 
-  /* Use un a:hover para que se delineen las anclas del navegador color rojo */
+  /* Use un a:hover para que se delineen las anclas del navegador color rojo. */
   header nav a:hover{
     color: #d8003a;
     font-weight: bold;
   }
   
-  /* Use un H1 como titulo principal de cada pagina */
+  /* Use un H1 como titulo principal de cada pagina. */
   h1{
     text-align: center;
-    font-size: 40px;
-    padding: 20px;
+    font-size: 35px;
+    padding: 10px;
     border-bottom-right-radius: 1px;
     border-bottom-left-radius: 1px;
-    background-color: whitesmoke;
+    background-color: #d8003a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #db0037;
+    color: white;
   }
 
   /* Para los subtitutlos decidi usar un atributo "div class, para organizar cada uno dependiendo de la pagina html. Use el mismo atributo para el contendenor del titulo que va dentro de la imagen." */
-  .subtitle1{
+  /* Index.html */
+  .subtitle{
     background-image: url(../assets/img/Knowledge.png);
     padding-top: 250px;
     padding-bottom: 250px;
     display: flex;
-    margin: 1px;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
   }
 
+  /* Use el contenedor para acomodar el texto dentro de la imagen principal. */
   .container{
     margin-bottom: 50px;
     margin-left: 50px;
@@ -78,46 +81,233 @@
     text-align: center;
   }
 
-  .text{
-    padding: 5px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 25px;
+  main section p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 1.5rem;
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #050a30;
   }
 
-  /* Para el footer no use muchas propiedades, la idea era que tuviera la misma tipografia del header. */
-  footer{
+  /* Products.html */
+  .subtitle1{
+    margin-top: 60px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 60px;
     display: flex;
-    justify-content: space-around;
-    background-color: #002250;
-    border-radius: 1px;
-    padding: 5px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #050a30;
+  }
+
+  main{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
-   section{
+  main section{
+    margin: 5px;
+  }
+
+  .block{
+    width: 19rem;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    border-radius:28px;
+    margin-bottom: 50px;
+  }
+  
+  .block img{
+    width: 100%;
+    height: 320px;
+    border-radius: 10px;
+    border: 1px solid #002250 ;
+  }
+
+  .newbutton{
+    background-color:#d8003a ;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    border:1px solid red;
+    padding:16px 31px;
+    text-align: center;
+  }
+  
+  main section div a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    color: #e4fff9;
+  }
+
+  /* About.html */
+  .image{
+    background-image: url(../assets/img/Contact.png);
+    padding-top: 190px;
+    padding-bottom: 190px;
+  }
+
+  main section div p{
+    width: 30rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+  }
+
+  .video{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 65px;
+  }
+
+  /* Contact.html */
+  legend{
+    width: 964px;
+    margin-left: 150px;
+    margin-right: 135px;
+    font-size: 25px;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+	  border:1px solid red;
+    display: flex;
+    justify-content: space-around;
+    background-color: #d8003a ;
+    color: #e4fff9 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  article {
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+	  border:1px solid #002d70;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white
+  }
+
+  .comments{
+    align-items: center;
+    -moz-border-radius: 10px;
+	  -webkit-border-radius: 10px;
+	  border-radius:28px;    
+  }
+
+  .survey{
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    background-color: #002250;
+  }
+
+  .myButton{
+	 background-color:#d8003a ;
+	 -moz-border-radius: 10px;
+	 -webkit-border-radius: 10px;
+	 border-radius: 10px;
+	 border:1px solid red;
+	 display:inline-block;
+	 cursor:pointer;
+	 color:#ffffff;
+	 font-family:Arial;
+	 font-size:17px;
+	 padding:16px 31px;
+	 text-decoration:none;
+  }
+
+  /* Find.html */
+  .map{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 45px;
+  }
+
+  .subtitle3{
+    margin-top: 160px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: #050a30;
+  }
+
+
+  /* Para el footer no use muchas propiedades, la idea era que tuviera la misma tipografia del header. */
+  footer{
+    background-color: #002250;
+    border-radius: 1px;
+    padding: 5px;
+  }
+
+  /* Aplique flexbox en esta seccion del footer y en el HTML reduje varios contenedores. */
+  footer div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
     color: white;
+    text-decoration: none;
     font-family: 'Kanit', sans-serif;
   }
 
-  @media (max-width: 370px) {
+  footer div a{
+    color: #e4fff9;
+  }
+
+
+  @media (max-width:650px) {
     body{
-      margin: 0 5px;
+      margin: 0;
+      padding: 0;
     }
 
     header nav ul{
+      margin: 10px;
+      gap: 10px;
       flex-direction: column;
-      gap: 100px;
+      text-align: center;
     }
 
-    footer {
-      margin: 0 16px;
+    section .subtitle{
+      height: 500px;
+    }
+
+    .block{
+      margin: 15px;
+      display: flex;
       flex-direction: column;
+      text-align: center;
+
+    }
+
+    .video{
+      width: 10px;
+    }
+
+    footer div{
+      margin: 10px;
+      gap: 10px;
+      flex-direction: column;
+      text-align: center;
     }
   }
 
