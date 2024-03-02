@@ -23,8 +23,6 @@
     background-color: #002250;
     border-top-left-radius: 1px;
     border-top-right-radius: 1px;
-    position: sticky;
-    top: 0;
   }
   
   /* Para el header use un display:flex para que los elncales relativos se organizaran horizontalemnte.*/
