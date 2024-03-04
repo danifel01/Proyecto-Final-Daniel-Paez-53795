@@ -7,31 +7,32 @@
     <script src="https://kit.fontawesome.com/3ed7de4ce1.js" crossorigin="anonymous"></script>
     <title> Contact </title>
     <link rel="shortcut icon" href="../favicon.ico.png">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body> 
     <header>
         <nav>
-            <ul>
+            <ul class="toolbar d-flex justify-content-around mb-sm-0">
                 <li> <a href="../index.html"> Main Menu </a> </li>
                 <li> <a href="../pages/products.html"> Products </a> </li>
                 <li> <a href="../pages/about.html"> About Us </a> </li>
                 <li> <a href="#"> Contact Us </a> </li>
                 <li> <a href="../pages/find.html"> Find Us </a> </li>
             </ul>     
-            <h1> How to contact us? </h1>
+            <h1 class="title text-center mb-sm-0"> How to contact us? </h1>
         </nav>
     </header>
     <main>
         <div class="subtitle1">
             <h2> Either if you have been part of this company, if you want to come back or just if you want to know more information about us, you can contact us and we will be reaching you back, feel free to fill the next form: </h2>    
         </div>
-        <legend> Contact Information </legend>  
-        <article class="survey"> 
-        <section>
+        <article class="survey text-center mb-sm-5"> 
+            <legend class="title2 text-center "> Contact Information </legend>  
+            <section>
                 <form>
                     <fieldset>
-                        <div>
+                        <div class="box1">
                             <label> Name </label>
                             <input type="text" required placeholder="Name">
                             <label> Last Name </label>
@@ -41,20 +42,18 @@
                             <label> Phone Number </label>
                             <input type="text" required placeholder="Phone Number">
                         </div>
-                        <br>
-                        <div>
+                        <div class="box2">
                             <label> Are you a former customer? </label>
                             <label>Yes</label>
                             <input type="radio">
                             <label>No</label>
                             <input type="radio">
                         </div>
-                        <div class="comments">
+                        <div class="box1">
                             <label> Tell us more about you </label>
-                            <textarea name="" id="" cols="130" rows="5"></textarea>
+                            <textarea name="" id="" cols="50" rows="5"></textarea>
                         </div>
-                        <hr>
-                        <div>
+                        <div class="box2">
                             <label> City </label>
                         <select>
                             <option> Select your city </option>
@@ -65,23 +64,25 @@
                             <option> None of the above </option>
                         </select>
                         </div>
-                        <br>
-                        <div>
-                        <input type="checkbox">
-                        <label> I want to receive a notification via text message </label>
-                    </div>
-                    <br>           
+                        <div class="box2">
+                            <input type="checkbox">
+                            <label> I want to receive a notification via text message. </label>
+                        </div>
+                        <div class="newbutton1">
+                            <a class="newbutton1" href="#" class="ancilliaries"> Submit </a>  
+                        </div>    
                     </fieldset>
                 </form>
         </section>
     </main>
     <footer>
-        <div>
+        <div class="footer2 d-flex justify-content-around modal-footer">
             <p> Find us on twitter: <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i> </a> </p>
             <p> Chat with us on whatsapp: <a href="https://www.whatsapp.com" target="_blank"> <i class="fa-brands fa-whatsapp"> </i> </a> </p> 
             <p> Comission 53795 | All rights reserved. </p>    
         </div>
     </footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
     
