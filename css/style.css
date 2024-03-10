@@ -1,36 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
-
-  *{
-    margin: 0;
+*{
     padding: 0;
-  }
-
-  body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    flex-wrap: 100%;
-    width: 100%;
-    max-width: 100%;
-    position: relative;
-  }
-  
-  .toolbar{
-    padding: 15px;
-    background-color: #002250;
-    list-style: none;
-  }
-
-  header nav a{
-    color: white;
+    margin: 0;
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #002250;
+  }
+  header nav a{
     font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
     font-family: 'Kanit', sans-serif;
   }
-
-  header nav a:hover{
+  .toolbar{
+    width: 95%;
+  }
+  .toolbar a:hover{
     color: #d8003a;
     font-weight: bold;
-  }
-  
+  } 
   .title{
     font-size: 35px;
     padding: 10px;
@@ -41,220 +32,97 @@
   /* Index.html */
   .subtitle{
     background-image: url(../assets/img/Knowledge.png);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 250px;
     padding-bottom: 250px;
-    font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
   }
-
-  /* Use el contenedor para acomodar el texto dentro de la imagen principal. */
-  .container{
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    text-align: center;
-  }
-
-  main section p{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 35px;
-    margin-right: 35px;
+  .paragraph1{
     font-size: 1.5rem;
     text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #050a30;
   }
-
   /* Products.html */
-  .subtitle1{
-    margin-top: 60px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+  .subtitle2{
     color: #050a30;
   }
-
-  main{
-    background-color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  main section{
-    margin: 5px;
-  }
-
   .block{
     width: 19rem;
-    -moz-border-radius:28px;
-    -webkit-border-radius:28px;
-    border-radius:28px;
-    margin-bottom: 50px;
-  }
-  
+  } 
   .block img{
     width: 100%;
     height: 320px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: 1px solid #002250 ;
   }
-
   .newbutton{
+    border-radius: 8px;
     background-color:#d8003a ;
-    border-radius:10px;
-    margin-top: 5px;
     border:1px solid red;
     padding:16px 31px;
-    text-align: center;
   }
-
-  .newbutton1{
-    font-family: 'Kanit', sans-serif;
-    background-color:#d8003a ;
-    border-radius:10px;
-    margin-top: 10px;
-    color:#ffffff;
-    text-decoration:none;
-  }
-  
   main section div a{
-    text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:30px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
     color: #e4fff9;
+    text-decoration: none;
   }
-
-  /* About.html */
+  main section div a:hover{
+    color: #002250;
+  }
+   /* About.html */
   .image{
     background-image: url(../assets/img/Contact.png);
     padding-top: 190px;
     padding-bottom: 190px;
   }
-
-  main section div p{
+  .paragraph2{
     width: 30rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 55px;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #050a30;
   }
-
-  .video{
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 40px;
-    margin-right: 65px;
-  }
-
   /* Contact.html */
   .survey{
-    border-radius:10px;
-    padding: 10px;
+    margin-left: 420px;
+    margin-right: 420px;
+    border-radius: 8px;
+    padding: 8px;
     background-color: #002250;
     font-family: 'Kanit', sans-serif;
-    margin-left: 380px;
   }
-
   .title2{
     padding: 5px;
-    border-radius:10px;
+    font-size: 30px;
+    border-radius: 8px;
     background-color: #d8003a;
     color: #e4fff9;
   }
-  
-  .box1{
-    display: flex;
-    flex-direction: column;
-    text-align: left; padding: 5px;
-    font-size: 15px;
+  .box{
+    padding: 5px;
 	  border:1px solid wheat;
-    color: white
   }
-
-  .box2{
-    display: flex;
-    justify-content: space-between;
-    text-align: left; padding: 5px;
-    border:1px solid wheat;
-    color: white
-
+  .newbutton1{
+    border-radius: 8px;
+    background-color:#d8003a ;
+    padding:5px;
   }
-
   /* Find.html */
-  .map{
-    justify-content: center;
-    display: flex;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 45px;
+  .address{
+    list-style: none;
   }
-
-  .subtitle3{
-    margin-top: 160px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-bottom: 60px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 13px;
-    color: #050a30;
-  }
-
   .footer2{
     background-color: #002250;
     padding: 5px;
-    color: white;
+    color: #e4fff9;
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
   }
-
   footer div a{
     color: #e4fff9;
   }
-
-
-  @media (max-width:650px) {
-    body{
-      margin: 0;
-      padding: 0;
-    }
-
-    header nav ul{
-      margin: 10px;
-      gap: 10px;
-      flex-direction: column;
-      text-align: center;
-    }
-
-    section .subtitle{
-      height: 500px;
-    }
-
-    .block{
-      margin: 15px;
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-
-    }
-
-    .video{
-      width: 10px;
-    }
-
-    footer div{
-      margin: 10px;
-      gap: 10px;
-      flex-direction: column;
-      text-align: center;
+  @media (max-width:991px){
+    .toolbar{
+        flex-direction: column;
     }
   }
 
