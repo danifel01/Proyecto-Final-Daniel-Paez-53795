@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&family=Inter:wght@100..900&family=Kanit:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*{
+  *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-}
-.navbar{
+  }
+  .navbar{
     background-color: #002250;
   }
   header nav a{
@@ -41,35 +41,6 @@
     font-family: "Cabin Condensed", sans-serif;
     font-size: 1.5rem;
     text-align: justify;
-    color: #050a30;
-  }
-  /* Products.html */
-  .subtitle2{
-    font-family: "Cabin Condensed", sans-serif;
-    color: #050a30;
-  }
-  .block{
-    width: 19rem;
-  } 
-  .block img{
-    width: 100%;
-    height: 320px;
-    border-radius: 8px;
-    border: 1px solid #002250 ;
-  }
-  .newbutton{
-    border-radius: 8px;
-    background-color:#d8003a ;
-    border:1px solid red;
-    padding:16px 31px;
-  }
-  main section div a{
-    font-family: 'Kanit', sans-serif;
-    font-size: 30px;
-    color: #e4fff9;
-    text-decoration: none;
-  }
-  main section div a:hover{
     color: #002250;
   }
    /* About.html */
@@ -78,16 +49,10 @@
     padding-top: 190px;
     padding-bottom: 190px;
   }
-  .paragraph2{
-    width: 30rem;
-    font-size: 1.5rem;
-    text-align: justify;
-    color: #050a30;
-  }
   /* Contact.html */
   .survey{
-    margin-left: 420px;
-    margin-right: 420px;
+    margin: 0 auto;
+    width: 40%;
     border-radius: 8px;
     padding: 8px;
     background-color: #002250;
@@ -106,12 +71,46 @@
   }
   .newbutton1{
     border-radius: 8px;
-    background-color:#d8003a ;
+    background-color:#d8003a;
     padding:5px;
   }
   /* Find.html */
-  .address{
-    list-style: none;
+  .lists{
+    font-family: "Cabin Condensed", sans-serif;
+    color: #002250;
+    font-size: 20px;
+    border:1px solid #002250;
+    padding: 8px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+  }
+  /* Products.html */
+  .subtitle2{
+    font-family: "Cabin Condensed", sans-serif;
+    color: #002250;
+  }
+  .block{
+    width: 19rem;
+  } 
+  .block img{
+    width: 100%;
+    height: 320px;
+    border-radius: 8px;
+    border: 1px solid #002250;
+  }
+  .newbutton{
+    border-radius: 8px;
+    background-color:#d8003a ;
+    border:1px solid red;
+    padding:16px 31px;
+  }
+  main section div a{
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+    color: #e4fff9;
+    text-decoration: none;
+  }
+  main section div a:hover{
     color: #002250;
   }
   .footer2{
@@ -132,17 +131,38 @@
       padding: 30px;
     }
     .subtitle2{
-      padding: 25px;
+      padding: 20px;
       text-align: justify;
     }
     .video{
-      display: flex;
-      justify-content: space-around;
+      margin: 0 auto;
+      width: 70%;
     }
     .survey{
-      width: 80%;
+      width: 75%;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    .map{
+      flex-direction: column;
+      margin: 0 auto;
+      width: 90%;
+    }
+    .maplist{
       text-align: center;
+      margin: 0 auto;
+    }
+    .lists{
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+    .blocks{
+      margin: 0 auto;
+    }
+    .footer2{
+      flex-direction: column;
     }
   }
+
 
 
