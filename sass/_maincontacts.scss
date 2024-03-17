@@ -15,7 +15,7 @@
   }
   @media (max-width:991px){
     .survey{
-      width: map-get($map: width, $key: width-300);
+      width: 300px;
       margin: 0 auto;
       margin-bottom: 50px;
     }

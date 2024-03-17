@@ -39,7 +39,7 @@
   }
   /* Index.html */
   .subtitle{
-    background-image: url(../assets/img/Knowledge.png);
+    background-image: url(../assets/img/Knowledge.webp);
     font-family: "Cabin Condensed", sans-serif;
     padding-top: 250px;
     padding-bottom: 250px;
@@ -55,7 +55,7 @@
   }
    /* About.html */
   .image{
-    background-image: url(../assets/img/Contact.png);
+    background-image: url(../assets/img/Contact.webp);
     padding-top: 190px;
     padding-bottom: 190px;
   }
