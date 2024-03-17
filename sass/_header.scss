@@ -1,0 +1,28 @@
+  .navbar{
+    background-color: #002250;
+  }
+  header nav a{
+    font-size: 25px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: font-family1;
+  }
+  .toolbar{
+    width: 95%;
+  }
+  .toolbar{
+      &:hover{
+        color: #d8003a;
+        font-weight: bold;
+    } 
+  } 
+  .animate__animated{
+    font-size: 35px;
+    background-color: #d8003a;
+    font-family: 'Kanit', sans-serif;
+  }
+  @media (max-width:991px){
+  .toolbar{
+    flex-direction: column;
+  }
+  }

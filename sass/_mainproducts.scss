@@ -1,0 +1,31 @@
+.subtitle2{
+  font-family: "Cabin Condensed", sans-serif;
+  color: #002250;
+}
+.blocks{
+  width: 19rem;
+} 
+.blocks img{
+  width: 100%;
+  height: 320px;
+  border-radius: 8px;
+  border: 1px solid #002250;
+  animation-name: float;
+  animation-duration: 12s;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+}
+.newbutton{
+  border-radius: 8px;
+  background-color:#d8003a ;
+  border:1px solid red;
+  padding:5px 10px;
+}
+.newbutton:hover{
+  transform: scale(1.1);
+}
+  @media (max-width:991px){
+    .blocks{
+      margin: 0 auto;
+    }
+  } 
