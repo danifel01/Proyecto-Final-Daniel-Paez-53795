@@ -53,7 +53,7 @@
   /* Contact.html */
   .survey{
     margin: 0 auto;
-    width: 40%;
+    width: 95%;
     border-radius: 8px;
     padding: 8px;
     background-color: #002250;
@@ -66,6 +66,7 @@
   }
   /* Find.html */
   .lists{
+    flex-direction: column;
     font-family: "Cabin Condensed", sans-serif;
     color: #002250;
     font-size: 20px;
@@ -144,7 +145,7 @@
       margin: 0 auto;
       margin-bottom: 50px;
     }
-    .map{
+    .form{
       flex-direction: column;
       margin: 0 auto;
       width: 90%;
@@ -152,6 +153,7 @@
     .maplist{
       text-align: center;
       margin: 0 auto;
+      width: 100%;
     }
     .lists{
       margin: 0 auto;
