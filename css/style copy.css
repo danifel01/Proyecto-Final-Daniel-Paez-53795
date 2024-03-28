@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&family=Inter:wght@100..900&family=Kanit:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @keyframes float {
-  0%{
-    transform: translateY(0px);
-  }
-  50%{
-    transform: translateY(-20px);
-  }
-  100%{
-    transform: translate(0px);
-  }
 }
 *{
     padding: 0;
@@ -39,7 +30,7 @@
   }
   /* Index.html */
   .subtitle{
-    background-image: url(../assets/img/Knowledge.png);
+    background-image: url(../assets/img/Knowledge.webp);
     font-family: "Cabin Condensed", sans-serif;
     padding-top: 250px;
     padding-bottom: 250px;
@@ -55,14 +46,14 @@
   }
    /* About.html */
   .image{
-    background-image: url(../assets/img/Contact.png);
+    background-image: url(../assets/img/Contact.webp);
     padding-top: 190px;
     padding-bottom: 190px;
   }
   /* Contact.html */
   .survey{
     margin: 0 auto;
-    width: 40%;
+    width: 95%;
     border-radius: 8px;
     padding: 8px;
     background-color: #002250;
@@ -73,18 +64,21 @@
     border-radius: 8px;
     background-color: #d8003a;
   }
-  /* Find.html */
-  .map:hover{
-      transform: scale(1.1);
-    }
   .lists{
+    flex-direction: column;
     font-family: "Cabin Condensed", sans-serif;
     color: #002250;
     font-size: 20px;
     border:1px solid #002250;
+    line-height: 2.5;
     padding: 8px;
-    margin-bottom: 50px;
+    text-align: justify;
+
+    margin-bottom: 30px;
     border-radius: 8px;
+  }
+  .lists:hover{
+    transform: scale(1.1);
   }
   /* Products.html */
   .subtitle2{
@@ -104,6 +98,9 @@
     animation-iteration-count:infinite;
     animation-timing-function: ease-in-out;
   }
+  .blocks:hover{
+    transform: scale(1.1);
+  }
   .newbutton{
     border-radius: 8px;
     background-color:#d8003a ;
@@ -115,7 +112,7 @@
   }
   main section div a{
     font-family: 'Kanit', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     color: #e4fff9;
     text-decoration: none;
   }
@@ -149,7 +146,7 @@
       margin: 0 auto;
       margin-bottom: 50px;
     }
-    .map{
+    .form{
       flex-direction: column;
       margin: 0 auto;
       width: 90%;
@@ -157,12 +154,12 @@
     .maplist{
       text-align: center;
       margin: 0 auto;
+      width: 100%;
     }
     .lists{
       margin: 0 auto;
       flex-direction: column;
       margin-bottom: 30px;
-      min-width: 300px;
     }
     .blocks{
       margin: 0 auto;

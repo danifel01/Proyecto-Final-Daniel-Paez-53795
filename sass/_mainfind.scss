@@ -1,15 +1,31 @@
-.map:hover{
-  transform: scale(1.1);
+.survey{
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #002250;
+  font-family: 'Kanit', sans-serif;
+}
+.title2{
+  font-size: 30px;
+  border-radius: 8px;
+  background-color: #d8003a;
 }
 .lists{
-    font-family: font-family2;
-    color: #002250;
-    font-size: 20px;
-    border:1px solid #002250;
-    padding: 8px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-  }
+  flex-direction: column;
+  font-family: "Cabin Condensed", sans-serif;
+  color: #002250;
+  font-size: 20px;
+  border:1px solid #002250;
+  line-height: 2.5;
+  padding: 8px;
+  text-align: justify;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.lists:hover{
+  transform: scale(1.1);
+}
   @media (max-width:991px){
    .map{
       flex-direction: column;

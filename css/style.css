@@ -50,7 +50,7 @@
     padding-top: 190px;
     padding-bottom: 190px;
   }
-  /* Contact.html */
+  /* Find.html */
   .survey{
     margin: 0 auto;
     width: 95%;
@@ -64,13 +64,13 @@
     border-radius: 8px;
     background-color: #d8003a;
   }
-  /* Find.html */
   .lists{
     flex-direction: column;
     font-family: "Cabin Condensed", sans-serif;
     color: #002250;
     font-size: 20px;
     border:1px solid #002250;
+    line-height: 2.5;
     padding: 8px;
     text-align: justify;
     margin-bottom: 30px;
