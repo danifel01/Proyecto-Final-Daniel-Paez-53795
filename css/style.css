@@ -42,13 +42,17 @@
     font-family: "Cabin Condensed", sans-serif;
     font-size: 1.5rem;
     text-align: justify;
-    color: #002250;
+    color: #d8003a;
   }
    /* About.html */
   .image{
     background-image: url(../assets/img/Contact.png);
     padding-top: 190px;
     padding-bottom: 190px;
+  }
+  .image1{
+    border-radius: 8px;
+    border:1px solid #ABCAE0;
   }
   /* Find.html */
   .survey{
@@ -92,10 +96,12 @@
     height: 290px;
     border-radius: 8px;
     border: 1px solid #002250;
-    animation-name: float;
-    animation-duration: 12s;
-    animation-iteration-count:infinite;
-    animation-timing-function: ease-in-out;
+  }
+  .blocks1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #002250;
   }
   .blocks:hover{
     transform: scale(1.1);
@@ -119,6 +125,13 @@
   main section div a:hover{
     color: #002250;
   }
+  /* Policies */
+  .paragraph2{
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #d8003a;
+  }
   .footer2{
     background-color: #002250;
     font-family: 'Kanit', sans-serif;
@@ -140,6 +153,13 @@
     .video{
       margin: 0 auto;
       width: 70%;
+    }
+    .image1{
+      margin: 0 auto;
+    }
+    .imgabt{
+      margin: 0 auto;
+      width: 300px;
     }
     .survey{
       width: 75%;
@@ -163,8 +183,23 @@
     }
     .blocks{
       margin: 0 auto;
+      width: 330px;
+    }
+    .blocks1{
+      margin: 0 auto;
+    }
+    .block{
+      margin-left: 25px;
+    }
+    .newbutton{
+      width: 90%;
     }
     .footer2{
       flex-direction: column;
     }
   }
+  @media (min-width:1024px) and (max-width:1280px){
+    .paragraph2{
+      width: 50%;
+    }
+   }
