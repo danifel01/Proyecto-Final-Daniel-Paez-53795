@@ -1,40 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&family=Inter:wght@100..900&family=Kanit:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @keyframes float {
-<<<<<<< HEAD
-  0%{
-    transform: translateY(0px);
-  }
-  50%{
-    transform: translateY(-20px);
-  }
-  100%{
-    transform: translate(0px);
-  }
-=======
->>>>>>> feature/preEntrega3
 }
 *{
     padding: 0;
     margin: 0;
-<<<<<<< HEAD
-    text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
-=======
-    list-style: none;
->>>>>>> feature/preEntrega3
   }
   .navbar{
     background-color: #002250;
   }
   header nav a{
     font-size: 25px;
-<<<<<<< HEAD
-    color: aliceblue;
-=======
     color: #e4fff9;
->>>>>>> feature/preEntrega3
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
   }
@@ -47,59 +25,23 @@
   } 
   .animate__animated{
     font-size: 35px;
-<<<<<<< HEAD
-    padding: 10px;
     background-color: #d8003a;
-    color: white;
-=======
-    background-color: #d8003a;
->>>>>>> feature/preEntrega3
     font-family: 'Kanit', sans-serif;
   }
   /* Index.html */
   .subtitle{
-<<<<<<< HEAD
-    background-image: url(../assets/img/Knowledge.png);
-=======
     background-image: url(../assets/img/Knowledge.webp);
->>>>>>> feature/preEntrega3
     font-family: "Cabin Condensed", sans-serif;
     padding-top: 250px;
     padding-bottom: 250px;
   }
-<<<<<<< HEAD
-  .container.text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-  }
-  .container:hover{
-    transform: scale(1.1);
-=======
   .container:hover{
     transform: scale(0.9);
->>>>>>> feature/preEntrega3
   }
   .paragraph1{
     font-family: "Cabin Condensed", sans-serif;
     font-size: 1.5rem;
     text-align: justify;
-<<<<<<< HEAD
-    color: #002250;
-  }
-   /* About.html */
-  .image{
-    background-image: url(../assets/img/Contact.png);
-    padding-top: 190px;
-    padding-bottom: 190px;
-  }
-  /* Contact.html */
-  .survey{
-    margin: 0 auto;
-    width: 40%;
-=======
     color: #d8003a;
   }
    /* About.html */
@@ -116,89 +58,12 @@
   .survey{
     margin: 0 auto;
     width: 95%;
->>>>>>> feature/preEntrega3
     border-radius: 8px;
     padding: 8px;
     background-color: #002250;
     font-family: 'Kanit', sans-serif;
   }
   .title2{
-<<<<<<< HEAD
-    padding: 5px;
-    font-size: 30px;
-    border-radius: 8px;
-    background-color: #d8003a;
-    color: #e4fff9;
-  }
-  .box{
-    padding: 5px;
-	  border:1px solid wheat;
-  }
-
-  /* Find.html */
-  .map:hover{
-      transform: scale(1.1);
-    }
-  .lists{
-    font-family: "Cabin Condensed", sans-serif;
-    color: #002250;
-    font-size: 20px;
-    border:1px solid #002250;
-    padding: 8px;
-    margin-bottom: 50px;
-    border-radius: 8px;
-  }
-  /* Products.html */
-  .subtitle2{
-    font-family: "Cabin Condensed", sans-serif;
-    color: #002250;
-  }
-  .blocks{
-    width: 19rem;
-  } 
-  .blocks img{
-    width: 100%;
-    height: 320px;
-    border-radius: 8px;
-    border: 1px solid #002250;
-    animation-name: float;
-    animation-duration: 12s;
-    animation-iteration-count:infinite;
-    animation-timing-function: ease-in-out;
-  }
-  .newbutton{
-    border-radius: 8px;
-    background-color:#d8003a ;
-    border:1px solid red;
-    padding:5px 10px;
-  }
-  .newbutton:hover{
-    transform: scale(1.1);
-  }
-  main section div a{
-    font-family: 'Kanit', sans-serif;
-    font-size: 30px;
-    color: #e4fff9;
-    text-decoration: none;
-  }
-  main section div a:hover{
-    color: #002250;
-  }
-  .footer2{
-    background-color: #002250;
-    padding: 5px;
-    color: #e4fff9;
-    text-decoration: none;
-    font-family: 'Kanit', sans-serif;
-  }
-  footer div a{
-    color: #e4fff9;
-  }
-  @media (max-width:991px){
-    .toolbar{
-        flex-direction: column;
-    }
-=======
     font-size: 30px;
     border-radius: 8px;
     background-color: #d8003a;
@@ -278,7 +143,6 @@
     .toolbar{
         flex-direction: column;
     }
->>>>>>> feature/preEntrega3
     .paragraph1{
       padding: 30px;
     }
@@ -290,8 +154,6 @@
       margin: 0 auto;
       width: 70%;
     }
-<<<<<<< HEAD
-=======
     .image1{
       margin: 0 auto;
     }
@@ -299,17 +161,12 @@
       margin: 0 auto;
       width: 290px;
     }
->>>>>>> feature/preEntrega3
     .survey{
       width: 75%;
       margin: 0 auto;
       margin-bottom: 50px;
     }
-<<<<<<< HEAD
-    .map{
-=======
     .form{
->>>>>>> feature/preEntrega3
       flex-direction: column;
       margin: 0 auto;
       width: 90%;
@@ -317,29 +174,12 @@
     .maplist{
       text-align: center;
       margin: 0 auto;
-<<<<<<< HEAD
-=======
       width: 100%;
->>>>>>> feature/preEntrega3
     }
     .lists{
       margin: 0 auto;
       flex-direction: column;
       margin-bottom: 30px;
-<<<<<<< HEAD
-      min-width: 300px;
-    }
-    .blocks{
-      margin: 0 auto;
-    }
-    .footer2{
-      flex-direction: column;
-    }
-  }
-
-
-
-=======
     }
     .blocks{
       margin: 0 auto;
@@ -364,4 +204,3 @@
       width: 50%;
     }
    }
->>>>>>> feature/preEntrega3

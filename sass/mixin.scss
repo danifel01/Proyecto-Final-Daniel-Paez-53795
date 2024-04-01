@@ -1,12 +1,12 @@
 @mixin paragraph {
-    font-family: "Cabin Condensed", sans-serif;
-    font-size: 1.5rem;
-    text-align: justify;
-    color: #d8003a;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #d8003a;
 }
 .paragraph1{
-    @include paragraph;
-  }
+  @include paragraph;
+}
 .paragraph2{
-    @include paragraph;
-  }
+  @include paragraph;
+}
