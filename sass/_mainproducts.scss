@@ -1,0 +1,61 @@
+.subtitle2{
+  font-family: "Cabin Condensed", sans-serif;
+  color: #002250;
+}
+.blocks{
+  width: 19rem;
+} 
+.blocks img{
+  width: 90%;
+  height: 290px;
+  border-radius: 8px;
+  border: 1px solid #002250;
+}
+.blocks1 img{
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 1px solid #002250;
+}
+.blocks:hover{
+  transform: scale(1.1);
+}
+.newbutton{
+  border-radius: 8px;
+  background-color:#d8003a ;
+  border:1px solid red;
+  width: 275px;
+  padding: 4px 8px;
+}
+.newbutton:hover{
+  transform: scale(1.1);
+}
+main section div a{
+  font-family: 'Kanit', sans-serif;
+  font-size: 21px;
+  color: #e4fff9;
+  text-decoration: none;
+}
+main section div a:hover{
+  color: #002250;
+}
+  @media (max-width:991px){
+    .blocks{
+      margin: 0 auto;
+      width: 330px;
+    }
+    .blocks1{
+      margin: 0 auto;
+    }
+    .block{
+      margin-left: 25px;
+    }
+    .newbutton{
+      width: 90%;
+    }
+  } 
+  @media (min-width:1024px) and (max-width:1280px){
+    .paragraph2{
+      width: 50%;
+    }
+   }

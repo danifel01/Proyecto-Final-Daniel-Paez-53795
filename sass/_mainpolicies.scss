@@ -1,0 +1,11 @@
+.paragraph2{
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #002250;
+}
+  @media (min-width:1024px) and (max-width:1280px){
+    .paragraph2{
+      width: 50%;
+    }
+   }

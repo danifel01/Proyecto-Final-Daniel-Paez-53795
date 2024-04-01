@@ -1,18 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@500&family=Inter:wght@100..900&family=Kanit:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+<<<<<<< HEAD
   *{
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+=======
+@keyframes float {
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+>>>>>>> feature/preEntrega3
   }
   .navbar{
     background-color: #002250;
   }
   header nav a{
     font-size: 25px;
+<<<<<<< HEAD
     color: aliceblue;
+=======
+    color: #e4fff9;
+>>>>>>> feature/preEntrega3
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
   }
@@ -23,25 +36,45 @@
     color: #d8003a;
     font-weight: bold;
   } 
+<<<<<<< HEAD
   .title{
     font-size: 35px;
     padding: 10px;
     background-color: #d8003a;
     color: white;
+=======
+  .animate__animated{
+    font-size: 35px;
+    background-color: #d8003a;
+>>>>>>> feature/preEntrega3
     font-family: 'Kanit', sans-serif;
   }
   /* Index.html */
   .subtitle{
+<<<<<<< HEAD
     background-image: url(../assets/img/Knowledge.png);
+=======
+    background-image: url(../assets/img/Knowledge.webp);
+>>>>>>> feature/preEntrega3
     font-family: "Cabin Condensed", sans-serif;
     padding-top: 250px;
     padding-bottom: 250px;
   }
+<<<<<<< HEAD
+=======
+  .container:hover{
+    transform: scale(0.9);
+  }
+>>>>>>> feature/preEntrega3
   .paragraph1{
     font-family: "Cabin Condensed", sans-serif;
     font-size: 1.5rem;
     text-align: justify;
+<<<<<<< HEAD
     color: #002250;
+=======
+    color: #d8003a;
+>>>>>>> feature/preEntrega3
   }
    /* About.html */
   .image{
@@ -49,16 +82,28 @@
     padding-top: 190px;
     padding-bottom: 190px;
   }
+<<<<<<< HEAD
   /* Contact.html */
   .survey{
     margin: 0 auto;
     width: 40%;
+=======
+  .image1{
+    border-radius: 8px;
+    border:1px solid #ABCAE0;
+  }
+  /* Find.html */
+  .survey{
+    margin: 0 auto;
+    width: 95%;
+>>>>>>> feature/preEntrega3
     border-radius: 8px;
     padding: 8px;
     background-color: #002250;
     font-family: 'Kanit', sans-serif;
   }
   .title2{
+<<<<<<< HEAD
     padding: 5px;
     font-size: 30px;
     border-radius: 8px;
@@ -76,19 +121,40 @@
   }
   /* Find.html */
   .lists{
+=======
+    font-size: 30px;
+    border-radius: 8px;
+    background-color: #d8003a;
+  }
+  .lists{
+    flex-direction: column;
+>>>>>>> feature/preEntrega3
     font-family: "Cabin Condensed", sans-serif;
     color: #002250;
     font-size: 20px;
     border:1px solid #002250;
+<<<<<<< HEAD
     padding: 8px;
     margin-bottom: 50px;
     border-radius: 8px;
   }
+=======
+    line-height: 2.5;
+    padding: 8px;
+    text-align: justify;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+  .lists:hover{
+    transform: scale(1.1);
+  }
+>>>>>>> feature/preEntrega3
   /* Products.html */
   .subtitle2{
     font-family: "Cabin Condensed", sans-serif;
     color: #002250;
   }
+<<<<<<< HEAD
   .block{
     width: 19rem;
   } 
@@ -98,26 +164,70 @@
     border-radius: 8px;
     border: 1px solid #002250;
   }
+=======
+  .blocks{
+    width: 19rem;
+  } 
+  .blocks img{
+    width: 90%;
+    height: 290px;
+    border-radius: 8px;
+    border: 1px solid #002250;
+  }
+  .blocks1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #002250;
+  }
+  .blocks:hover{
+    transform: scale(1.1);
+  }
+>>>>>>> feature/preEntrega3
   .newbutton{
     border-radius: 8px;
     background-color:#d8003a ;
     border:1px solid red;
+<<<<<<< HEAD
     padding:16px 31px;
   }
   main section div a{
     font-family: 'Kanit', sans-serif;
     font-size: 30px;
+=======
+    width: 275px;
+    padding: 4px 8px;
+  }
+  .newbutton:hover{
+    transform: scale(1.1);
+  }
+  main section div a{
+    font-family: 'Kanit', sans-serif;
+    font-size: 21px;
+>>>>>>> feature/preEntrega3
     color: #e4fff9;
     text-decoration: none;
   }
   main section div a:hover{
     color: #002250;
   }
+<<<<<<< HEAD
   .footer2{
     background-color: #002250;
     padding: 5px;
     color: #e4fff9;
     text-decoration: none;
+=======
+  /* Policies */
+  .paragraph2{
+    font-family: "Cabin Condensed", sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #d8003a;
+  }
+  .footer2{
+    background-color: #002250;
+>>>>>>> feature/preEntrega3
     font-family: 'Kanit', sans-serif;
   }
   footer div a{
@@ -138,12 +248,26 @@
       margin: 0 auto;
       width: 70%;
     }
+<<<<<<< HEAD
+=======
+    .image1{
+      margin: 0 auto;
+    }
+    .imgabt{
+      margin: 0 auto;
+      width: 300px;
+    }
+>>>>>>> feature/preEntrega3
     .survey{
       width: 75%;
       margin: 0 auto;
       margin-bottom: 50px;
     }
+<<<<<<< HEAD
     .map{
+=======
+    .form{
+>>>>>>> feature/preEntrega3
       flex-direction: column;
       margin: 0 auto;
       width: 90%;
@@ -151,20 +275,48 @@
     .maplist{
       text-align: center;
       margin: 0 auto;
+<<<<<<< HEAD
+=======
+      width: 100%;
+>>>>>>> feature/preEntrega3
     }
     .lists{
       margin: 0 auto;
       flex-direction: column;
       margin-bottom: 30px;
+<<<<<<< HEAD
       width: 70%;
     }
     .blocks{
       margin: 0 auto;
+=======
+    }
+    .blocks{
+      margin: 0 auto;
+      width: 330px;
+    }
+    .blocks1{
+      margin: 0 auto;
+    }
+    .block{
+      margin-left: 25px;
+    }
+    .newbutton{
+      width: 90%;
+>>>>>>> feature/preEntrega3
     }
     .footer2{
       flex-direction: column;
     }
   }
+<<<<<<< HEAD
 
 
 
+=======
+  @media (min-width:1024px) and (max-width:1280px){
+    .paragraph2{
+      width: 50%;
+    }
+   }
+>>>>>>> feature/preEntrega3
