@@ -46,7 +46,7 @@
   }
    /* About.html */
   .image{
-    background-image: url(../assets/img/Contact.png);
+    background-image: url(../assets/img/Contact.webp);
     padding-top: 190px;
     padding-bottom: 190px;
   }
@@ -159,7 +159,7 @@
     }
     .imgabt{
       margin: 0 auto;
-      width: 300px;
+      width: 290px;
     }
     .survey{
       width: 75%;
@@ -195,6 +195,7 @@
       width: 90%;
     }
     .footer2{
+      margin-top: 30px;
       flex-direction: column;
     }
   }
